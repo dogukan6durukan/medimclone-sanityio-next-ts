@@ -1,0 +1,2 @@
+# Medium Clone
+This project is a clone project that is made by using Sanity CMS for content management which is responsible for CRUD operations on articles with ease. Besides using Next JS for the client-side and maintaining Next JS pre-render and client-side navigation features. Typescript for my type-safe operations and focused on code readability. Furthermore used Sanity CLI for creating unique URL and controlling my management operations on global which is helpful for teams.

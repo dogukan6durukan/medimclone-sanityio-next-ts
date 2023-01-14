@@ -1,11 +1,10 @@
 import Link from "next/link";
 import { Schema } from "../types/Posts";
+
 type Posts = Schema['PublicPosts']['Posts'];
 
 
 export default function ArticleList({ posts } : { posts : Posts[] }) {
-
-  console.log(posts[0]);
 
   return (
     <div className="flex flex-wrap lg:flex-row flex-col">
