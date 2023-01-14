@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .header {
+        font-family: Georgia, Times, 'Times New Roman', serif;
+    }
+}
