@@ -19,7 +19,9 @@ export default function ArticleContent(props: Props<Posts[]>) {
 
   return (
     <div>
+      
       <ArticleNavigation />
+
       <div className="lg:flex justify-evenly">
         <div className="content_wrapper basis-5/12 mx-6">
           <div className="header shrink-0 mt-12 mb-10 sm:flex items-center justify-between">
@@ -185,7 +187,7 @@ export default function ArticleContent(props: Props<Posts[]>) {
                 </div>
               </div>
 
-              <div className="w-10/12 text-sm">
+              <div className="w-10/12 text-sm sm:mt-0 mt-3">
                 <PortableText value={article_content.author.bio!} />
               </div>
             </div>
